@@ -20,14 +20,12 @@ contract Land{
         
     }
     
-    function setLandnewdetails(string newowner, uint newvalue, string newlocation, string newarea, string newlegalid) public{
+    function setLandnewdetails(string newowner, uint newvalue) public{
         
         
         owner = newowner;
         value = newvalue;
-        location = newlocation;
-        area = newarea;
-        legalid=newlegalid;
+        
         
     }
     
