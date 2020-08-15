@@ -1,0 +1,31 @@
+pragma solidity ^0.4.17 < 0.6.12;
+
+contract Traintickets{
+    
+    
+    string public TicketNumber;
+    string public Customername;
+    string public FromAddress;
+    string public ToAddress;
+    string public DateandTime;
+    string public Amount;
+    string public SeatNumber;
+    
+    
+    function Traintickets(string newTicketNumber,string newCustomername, string newFromAddress, string newToAddress,string newDateandTime, string newAmount, string newSeatNumber) public{
+        
+        
+        TicketNumber = newTicketNumber;
+        Customername = newCustomername;
+        FromAddress = newFromAddress;
+        ToAddress = newToAddress;
+        DateandTime = newDateandTime;
+        Amount = newAmount;
+        SeatNumber = newSeatNumber;
+        
+        
+    }
+    
+    
+    
+}
