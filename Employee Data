@@ -1,0 +1,29 @@
+pragma solidity ^0.4.17 < 0.6.12;
+
+contract Employeedata{
+    
+    
+    
+    string public Companyname;
+    string public EmployeeID;
+    string public Employeename;
+    string public location;
+    string Salary;
+    
+    function Employeedata(string newCompanyname,string newEmployeeID, string newEmployeename, string newlocation, string newSalary) public{
+        
+    
+    Companyname = newCompanyname;
+    EmployeeID = newEmployeeID;
+    Employeename = newEmployeename;
+    location = newlocation;
+    Salary = newSalary;
+    
+    
+        
+    }
+    
+    
+    
+    
+}
